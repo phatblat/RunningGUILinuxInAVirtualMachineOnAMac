@@ -7,7 +7,8 @@ The app delegate that sets up and starts the virtual machine.
 
 import Virtualization
 
-let vmBundlePath = NSHomeDirectory() + "/GUI Linux VM.bundle/"
+let vmBundlePath = NSHomeDirectory() + "/dev/tart/RunningGUILinuxInAVirtualMachineOnAMac/" +
+    "GUI Linux VM.bundle/"
 let mainDiskImagePath = vmBundlePath + "Disk.img"
 let efiVariableStorePath = vmBundlePath + "NVRAM"
 let machineIdentifierPath = vmBundlePath + "MachineIdentifier"
